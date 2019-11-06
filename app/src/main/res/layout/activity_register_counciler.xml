@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterCouncilerActivity"
+    android:background="@color/colorLigthCoral">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/title"
+        android:textColor="@color/colorGreen"
+        android:textSize="28sp"
+        android:textStyle="italic"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true" />
+
+
+    <EditText
+        android:id="@+id/iUserName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="UserName"
+        android:inputType="text"
+        android:textColorHint="@color/colorTextIcons"
+        android:textColor="@color/colorPrimaryText"
+        android:maxLength="12"
+        android:layout_marginTop="120dp"
+        android:layout_marginLeft="85dp" />
+
+    <EditText
+        android:id="@+id/iEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:textColorHint="@color/colorTextIcons"
+        android:textColor="@color/colorPrimaryText"
+        android:layout_below="@+id/iUserName"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="85dp" />
+
+    <EditText
+        android:id="@+id/iRegistered"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Reg.No"
+        android:inputType="numberPassword"
+        android:textColorHint="@color/colorTextIcons"
+        android:textColor="@color/colorPrimaryText"
+        android:layout_below="@+id/iEmail"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="85dp" />
+
+    <EditText
+        android:id="@+id/iPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Password"
+        android:maxLength="10"
+        android:textColorHint="@color/colorTextIcons"
+        android:textColor="@color/colorPrimaryText"
+        android:inputType="textPassword"
+        android:layout_below="@+id/iRegistered"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="85dp" />
+
+    <EditText
+        android:id="@+id/iPassword1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="ConfirmPassword"
+        android:inputType="textPassword"
+        android:textColorHint="@color/colorTextIcons"
+        android:textColor="@color/colorPrimaryText"
+        android:layout_below="@+id/iPassword"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="85dp" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/conditions"
+        android:id="@+id/check"
+        android:layout_below="@+id/iPassword1"
+        android:textColor="@color/colorDivider"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="10dp"/>
+
+
+    <Button
+        android:id="@+id/signupButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SIGN UP"
+        android:layout_below="@+id/check"
+        android:layout_centerHorizontal="true"
+        />
+
+
+    <TextView
+        android:id="@+id/swapL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="@string/login"
+        android:layout_below="@+id/signupButton"
+        android:layout_centerHorizontal="true"
+        tools:layout_editor_absoluteX="24dp"
+        tools:layout_editor_absoluteY="615dp" />
+
+
+
+</RelativeLayout>

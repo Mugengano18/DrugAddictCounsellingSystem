@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:background="@color/colorLigthPink">
+
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/title"
+        android:layout_marginTop="80dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="28sp"
+        android:textStyle="italic"
+        android:textColor="@color/colorGreen"/>
+
+    <EditText
+        android:id="@+id/iUserNameL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="UserName"
+        android:inputType="text"
+        android:ems="10"
+        android:layout_below="@+id/title"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="91dp"
+        android:textColorHint="@color/colorTextIcons"
+        android:textColor="@color/colorPrimaryText"/>
+
+    <EditText
+        android:id="@+id/iEmailL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/iUserNameL"
+        android:layout_marginLeft="91dp"
+        android:layout_marginTop="74dp"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/colorPrimaryText"
+        android:textColorHint="@color/colorTextIcons" />
+
+    <EditText
+        android:id="@+id/iPasswordL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:layout_below="@+id/iUserNameL"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="91dp"
+        android:textColorHint="@color/colorTextIcons"
+        android:textColor="@color/colorPrimaryText"/>
+
+
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/forget"
+        android:layout_centerHorizontal="true"
+        android:text="LOGIN" />
+
+    <TextView
+        android:id="@+id/forget"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/iPasswordL"
+        android:layout_marginLeft="85dp"
+        android:layout_marginTop="85dp"
+        android:padding="10dp"
+        android:text="Forgot password? "
+        android:textColor="@color/colorPrimaryDark" />
+
+    <TextView
+        android:id="@+id/swap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/loginButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="37dp"
+        android:padding="10dp"
+        android:text="@string/create"
+        android:textColor="@color/colorTextIcons" />
+</RelativeLayout>

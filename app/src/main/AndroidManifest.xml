@@ -9,9 +9,19 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+<<<<<<< HEAD
         <activity android:name=".Chat">
+=======
+        <activity android:name=".RegisterCouncilerActivity"></activity>
+        <activity android:name=".LoginCouncilerActivity" />
+        <activity android:name=".ResetPasswordActivity" />
+        <activity android:name=".SignUpActivity" />
+        <activity android:name=".MessageActivity" />
+        <activity android:name=".LoginActivity">
+>>>>>>> 54ea759ab3650e35ff143e954b290134e8189740
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.VIEW" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>

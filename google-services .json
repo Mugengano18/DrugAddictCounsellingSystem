@@ -15,25 +15,6 @@
       },
       "oauth_client": [
         {
-<<<<<<< HEAD
-          "client_id": "1025057639080-00fqeqrm3r9o692fehsdht0bscvlvpo7.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.example.drugconsapp",
-            "certificate_hash": "225a42c9e294a8d9ee9b7a5971cd4c379b02ce0f"
-          }
-        },
-        {
-=======
->>>>>>> 54ea759ab3650e35ff143e954b290134e8189740
-          "client_id": "1025057639080-m4ic7ml7ja5iiapc5j2messnecdp9lng.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.example.drugconsapp",
-            "certificate_hash": "9f9db6f3ce82c4e8307ac0790db93e34739f5c0d"
-          }
-        },
-        {
           "client_id": "1025057639080-m728diqhdo0hbmuk9hcr8v18e5j9d9oh.apps.googleusercontent.com",
           "client_type": 3
         }

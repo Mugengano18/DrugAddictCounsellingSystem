@@ -1,3 +1,11 @@
 <resources>
+<<<<<<< HEAD
     <string name="app_name">WeConnect</string>
+=======
+    <string name="app_name">DrugConsApp</string>
+    <string name="title">Fighter</string>
+    <string name="conditions">I accept,the terms and conditions</string>
+    <string name="login">Login Here!!</string>
+    <string name="create">No account yet?Sign up Here</string>
+>>>>>>> 54ea759ab3650e35ff143e954b290134e8189740
 </resources>

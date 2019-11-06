@@ -64,7 +64,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/forget"
-        android:layout_marginTop="108dp"
+        android:layout_marginTop="64dp"
         android:layout_centerHorizontal="true"
         android:text="LOGIN" />
 
@@ -74,7 +74,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/iPasswordL"
         android:layout_marginLeft="85dp"
-        android:layout_marginTop="67dp"
+        android:layout_marginTop="79dp"
         android:padding="10dp"
         android:text="Forgot password? "
         android:textColor="@color/colorPrimaryDark" />
@@ -83,11 +83,10 @@
         android:id="@+id/swap"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_below="@+id/loginButton"
+        android:layout_marginTop="8dp"
         android:padding="10dp"
         android:text="@string/create"
-        android:textColor="@color/colorTextIcons"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="20dp"
-        android:layout_below="@+id/loginButton"/>
+        android:textColor="@color/colorTextIcons" />
 
 </RelativeLayout>

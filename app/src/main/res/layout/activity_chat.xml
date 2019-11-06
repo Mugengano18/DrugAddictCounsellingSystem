@@ -11,8 +11,8 @@
         android:id="@+id/floatingActionButton2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="295dp"
-        android:layout_marginTop="490dp"
+        android:layout_marginLeft="330dp"
+        android:layout_marginTop="600dp"
         android:clickable="true"
         android:background="@color/colorPrimaryDark"
         app:srcCompat="@android:drawable/ic_menu_send" />
@@ -20,8 +20,8 @@
     <EditText
         android:layout_width="260dp"
         android:layout_height="40dp"
-        android:layout_marginTop="499dp"
-        android:layout_marginLeft="10dp"
+        android:layout_marginTop="620dp"
+        android:layout_marginLeft="15dp"
         android:hint="Your Text Here...." />
 
     <TextView

@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">DrugConsApp</string>
+    <string name="title">Fighter</string>
+    <string name="conditions">I accept,the terms and conditions</string>
+    <string name="login">Login Here!!</string>
+    <string name="create">No account yet?Sign up Here</string>
 </resources>

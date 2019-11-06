@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".LoginActivity"
-    android:background="@color/colorLigthPink">
+    tools:context=".LoginCouncilerActivity"
+    android:background="@color/colorLigthCoral">
 
 
     <TextView
@@ -38,10 +38,10 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/iUserNameL"
         android:layout_marginLeft="91dp"
-        android:layout_marginTop="74dp"
+        android:layout_marginTop="63dp"
         android:ems="10"
-        android:hint="Email"
-        android:inputType="textEmailAddress"
+        android:hint="UserName"
+        android:inputType="text"
         android:textColor="@color/colorPrimaryText"
         android:textColorHint="@color/colorTextIcons" />
 
@@ -64,6 +64,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/forget"
+        android:layout_marginTop="108dp"
         android:layout_centerHorizontal="true"
         android:text="LOGIN" />
 
@@ -73,7 +74,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/iPasswordL"
         android:layout_marginLeft="85dp"
-        android:layout_marginTop="85dp"
+        android:layout_marginTop="67dp"
         android:padding="10dp"
         android:text="Forgot password? "
         android:textColor="@color/colorPrimaryDark" />
@@ -82,10 +83,11 @@
         android:id="@+id/swap"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/loginButton"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="37dp"
         android:padding="10dp"
         android:text="@string/create"
-        android:textColor="@color/colorTextIcons" />
+        android:textColor="@color/colorTextIcons"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/loginButton"/>
+
 </RelativeLayout>

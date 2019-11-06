@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1025057639080",
+    "firebase_url": "https://drugaddictcapp.firebaseio.com",
+    "project_id": "drugaddictcapp",
+    "storage_bucket": "drugaddictcapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1025057639080:android:612f80bedcc63b0204d09d",
+        "android_client_info": {
+          "package_name": "com.example.drugconsapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1025057639080-m728diqhdo0hbmuk9hcr8v18e5j9d9oh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB6SmgWULro1QXLfcHQOWGTWr9tkdZm6ZU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1025057639080-m728diqhdo0hbmuk9hcr8v18e5j9d9oh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
